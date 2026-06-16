@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0A0F1E"/>
+
+  <!-- Ciborium Icon (geometric, modern) -->
+  <!-- Dome top -->
+  <path d="M 250 80
+             C 210 80, 175 110, 175 145
+             L 325 145
+             C 325 110, 290 80, 250 80 Z"
+        fill="#C9973A"/>
+  <!-- Cross on dome finial -->
+  <rect x="246" y="58" width="8" height="30" fill="#C9973A"/>
+  <rect x="234" y="66" width="32" height="8" fill="#C9973A"/>
+  <!-- Cup body -->
+  <path d="M 175 145 L 185 215 L 315 215 L 325 145 Z" fill="#F5F0E8" opacity="0.9"/>
+  <!-- Inner cup shadow -->
+  <path d="M 183 153 L 191 207 L 309 207 L 317 153 Z" fill="#E8E0D0" opacity="0.4"/>
+  <!-- Knop (middle node on stem) -->
+  <ellipse cx="250" cy="240" rx="20" ry="10" fill="#C9973A"/>
+  <!-- Stem -->
+  <rect x="244" y="215" width="12" height="70" fill="#F5F0E8" opacity="0.8"/>
+  <rect x="244" y="235" width="12" height="20" fill="#C9973A"/>
+  <!-- Base foot -->
+  <ellipse cx="250" cy="290" rx="50" ry="12" fill="#F5F0E8" opacity="0.7"/>
+  <ellipse cx="250" cy="290" rx="40" ry="8" fill="#C9973A" opacity="0.5"/>
+
+  <!-- Divider -->
+  <line x1="120" y1="325" x2="380" y2="325" stroke="#C9973A" stroke-width="1" opacity="0.4"/>
+
+  <!-- Wordmark -->
+  <text
+    x="250"
+    y="390"
+    text-anchor="middle"
+    font-family="'Arial Narrow','Impact',sans-serif"
+    font-weight="900"
+    font-size="60"
+    letter-spacing="10"
+    fill="#F5F0E8"
+  >HYACINTH</text>
+
+  <!-- Tagline -->
+  <text
+    x="250"
+    y="425"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="10"
+    letter-spacing="5"
+    fill="#C9973A"
+    opacity="0.8"
+  >CARRY WHAT OTHERS CANNOT</text>
+</svg>
